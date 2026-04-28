@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: yourdockerhub/ai-task-worker:latest
+          image: redclubx/ai-task-worker:d0809514dfec1c28f9ecd0f18e4474653cf9495b
           env:
             - name: MONGO_URI
               valueFrom:
