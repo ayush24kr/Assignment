@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/yourusername/ai-task-platform.git
+    repoURL: https://github.com/ayush24kr/Assignment.git
     targetRevision: main
     path: infra/base
   destination:
