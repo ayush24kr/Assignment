@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: yourdockerhub/ai-task-backend:latest
+          image: redclubx/ai-task-backend:1e8cc46b238aeac329a652b1c71f240c5a7596f3
           ports:
             - containerPort: 5000
           envFrom:

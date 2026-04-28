@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: yourdockerhub/ai-task-frontend:latest
+          image: redclubx/ai-task-frontend:1e8cc46b238aeac329a652b1c71f240c5a7596f3
           ports:
             - containerPort: 80
           resources:
