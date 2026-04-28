@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: redclubx/ai-task-worker:d0809514dfec1c28f9ecd0f18e4474653cf9495b
+          image: redclubx/ai-task-worker:0a18a56eb38c3a20d7f62d6982c4510aacfd0bf3
           env:
             - name: MONGO_URI
               valueFrom:

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: redclubx/ai-task-backend:d0809514dfec1c28f9ecd0f18e4474653cf9495b
+          image: redclubx/ai-task-backend:0a18a56eb38c3a20d7f62d6982c4510aacfd0bf3
           ports:
             - containerPort: 5000
           envFrom:
