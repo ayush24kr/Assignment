@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: redclubx/ai-task-frontend:402bbd1418869886db9a52c3915fb5a7398fa0b6
+          image: redclubx/ai-task-frontend:1e917472f9a52d643fbea117ed9a2361c44d6384
           ports:
             - containerPort: 80
           resources:
